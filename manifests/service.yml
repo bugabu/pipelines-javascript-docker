@@ -46,11 +46,11 @@ spec:
 #   kind: Role
 #   name: role-for-serviceaccount
 #   apiGroup: rbac.authorization.k8s.io
----
-apiVersion: v1
-kind: Secret
-metadata:
-  name: sa1-token
-  annotations:
-    kubernetes.io/service-account.name: cicd
-type: kubernetes.io/service-account-token
+# ---
+# apiVersion: v1
+# kind: Secret
+# metadata:
+#   name: sa1-token
+#   annotations:
+#     kubernetes.io/service-account.name: cicd
+# type: kubernetes.io/service-account-token
