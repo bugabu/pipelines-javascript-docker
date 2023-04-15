@@ -17,9 +17,12 @@ spec:
     protocol: TCP
     targetPort: 8080
   type: ClusterIP
-
---- 
-  
+---
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: cicd
+---   
 apiVersion: v1
 kind: Secret
 metadata:
